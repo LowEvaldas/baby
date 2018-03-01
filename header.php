@@ -17,7 +17,11 @@
         
     </head>
     <body>
-
-
-
-    test
+<header>
+    <div class="bgheader">
+        <img class="img-responsive top-cr" src="img/top-cr.png"></img>
+        <div class="container">
+        
+        </div>
+    </div>
+</header>

@@ -1,4 +1,26 @@
-.test {
-  color: red; }
+body {
+  background-color: #dce4e5 !important; }
+
+header .bgheader {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  header .bgheader .top-cr {
+    max-width: 90%;
+    margin-top: -100px; }
+
+.show-desctop {
+  display: block !important; }
+
+.show-mobile {
+  display: none !important; }
+
+@media screen and (max-width: 768px) {
+  .show-desctop {
+    display: none !important; }
+
+  .show-mobile {
+    display: block !important; } }
 
 /*# sourceMappingURL=style.css.map */
