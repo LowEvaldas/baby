@@ -1,14 +1,72 @@
 body {
   background-color: #dce4e5 !important; }
 
+@font-face {
+  font-family: "Minion Pro";
+  src: url("fonts/MinionPro-Regular.otf"); }
+@font-face {
+  font-family: "Amarillo";
+  src: url("fonts/Amarillo.otf"); }
 header .bgheader {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center; }
   header .bgheader .top-cr {
-    max-width: 90%;
-    margin-top: -100px; }
+    margin-top: -80px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    max-width: 100%; }
+  header .bgheader .menu-sc {
+    position: absolute;
+    top: 40px;
+    width: 100%; }
+    header .bgheader .menu-sc .container {
+      max-width: 600px; }
+  header .bgheader .under-menu-sc {
+    position: absolute;
+    top: 180px;
+    width: 100%; }
+    header .bgheader .under-menu-sc .container {
+      max-width: 680px !important; }
+  header .bgheader .menu-fl .logo-top {
+    float: left; }
+  header .bgheader .menu-fl .top-menu {
+    float: left; }
+  header .bgheader .top-menu li {
+    display: inline-block;
+    font-size: 10px;
+    color: #199ad6;
+    font-family: "Minion Pro";
+    font-weight: 550;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center; }
+  header .bgheader .baby-top .top-baby-text-fl {
+    float: left; }
+  header .bgheader .baby-top .top-baby-text-fl * {
+    display: block; }
+  header .bgheader .baby-top .world-known {
+    font-family: "Amarillo", 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #199ad6; }
+  header .bgheader .baby-top .under-world {
+    font-family: "Minion Pro";
+    font-size: 17px;
+    color: #199ad6; }
+  header .bgheader .baby-top .buclet-bt {
+    width: 130px;
+    height: 30px;
+    background-color: #40abdd;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 5px; }
+  header .bgheader .baby-top .buclet-bt a {
+    color: white !important;
+    font-family: "Minion Pro";
+    padding-top: 5px;
+    font-size: 13px; }
 
 .show-desctop {
   display: block !important; }

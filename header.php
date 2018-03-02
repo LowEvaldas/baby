@@ -20,8 +20,37 @@
 <header>
     <div class="bgheader">
         <img class="img-responsive top-cr" src="img/top-cr.png"></img>
-        <div class="container">
-        
-        </div>
+            <div class="menu-sc">
+                <div class="container">
+                        <div class="menu-fl clearfix">
+                            <img class="img-responsive logo-top" src="img/logo-top.png"></img>
+                            <ul class="top-menu">
+                                <li><a href="#">Apie mus</a></li>
+                                <li><a href="#">Kaip naudoti?</a></li>
+                                <li><a href="#">Kodėl verta?</a></li>
+                                <li><a href="#">Modeliai</a></li>
+                                <li><a href="#">Kur įsigyti?</a></li>
+                                <li><a href="#">Kontaktai</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+            <div class="under-menu-sc">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="baby-top">
+                                <div class="top-baby-text-fl">
+                                    <span class="world-known">Pasaulyje pripažinti,</span>
+                                    <span class="under-world">dažniausiai pediatrų rekomenduojami vystiklai kūdikiams</span>
+                                    <div class="buclet-bt"><a href="#">Parsisiųsti bukletą</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        
+               
     </div>
 </header>

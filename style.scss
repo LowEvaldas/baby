@@ -1,18 +1,49 @@
 body{background-color: #dce4e5 !important}
-
+$mainfont :"Minion Pro";
+@font-face {
+    font-family: "Minion Pro";
+    src: url("fonts/MinionPro-Regular.otf")
+    }
+    
+@font-face {
+        font-family: "Amarillo";
+        src: url("fonts/Amarillo.otf");
+      
+        } 
 
 header{
     .bgheader{
-        max-width: 1200px; margin-left:auto; margin-right:auto; text-align: center;
-        .top-cr {max-width: 90%; margin-top:-100px;}
+         text-align: center;
+        .top-cr { margin-top:-80px; position: relative; margin-left:auto; margin-right:auto;width: max-content; max-width: 100%}
+        .menu-sc{
+            position:absolute; top:40px;   width: 100%; 
+            .container {max-width: 600px};
+        }
+        .under-menu-sc{
+            position: absolute; top:180px;  width: 100%; 
+            .container {max-width: 680px !important;  };
+        }
+        .menu-fl{
+            .logo-top {float:left};
+            .top-menu {float: left};
+            
+        }
+        
+        .top-menu li {display:inline-block; font-size:10px; color:#199ad6; font-family: $mainfont; font-weight: 550; padding-left: 5px; padding-right: 5px; text-align: center};
+        .baby-top{
+            
+            .top-baby-text-fl {float:left;}
+            .top-baby-text-fl * {display:block}
+
+            .world-known{font-family: "Amarillo", 'Times New Roman', Times, serif; font-size:24px; margin-bottom:15px; color:#199ad6};
+            .under-world{font-family:$mainfont; font-size:17px; color:#199ad6};
+            .buclet-bt {width: 130px; height: 30px; background-color: #40abdd; margin-left:auto; margin-right:auto; margin-top:10px; border-radius:5px; }
+            .buclet-bt a { color:white !important; font-family:$mainfont; padding-top:5px; font-size:13px;}
+           
+        }
+       
     }
 }
-
-
-
-
-
-
 
 
 
@@ -32,7 +63,7 @@ header{
   }
   
   @media screen and (max-width: 1200px) {
-   
+  
   }
   
   @media screen and (min-width: 992px) and (max-width: 1200px) {
